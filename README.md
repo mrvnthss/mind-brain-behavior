@@ -1,6 +1,6 @@
 # MBB Essays
 
-This repository contains a collection of essays that I as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html).
+This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html).
 
 ## Table of Contents
 
@@ -14,6 +14,10 @@ This repository contains a collection of essays that I as part of the master's p
 ## Essays
 
 ### EEG
+
+The EEG seminar that's part of the [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) program at JLU consists of theoretical sessions that focus on the theory behind EEG, as well as practical lab sessions that teach students how to conduct EEG experiments and how to collect, preprocess, and analyze EEG data. My paper, which you can find in this repository, focuses on the latter aspects. Using the passive auditory oddball task as an example, I discuss the entire process of running an EEG experiment, including EEG preparation and data collection, data preprocessing, and data analysis.
+
+Data preprocessing and analysis were performed in MATLAB (The MathWorks Inc., [2023](#matlab)) using common EEG toolboxes, such as EEGLAB (Delorme & Makeig, [2004](#eeglab)), ERPLAB (Lopez-Calderon & Luck, [2014](#erplab)), and others.
 
 ### Programming for Behavioral and Neurosciences
 
@@ -47,9 +51,13 @@ In my essay, I discuss a postdictive framework postulated by Eagleman & Sejnowsk
 
 - <a id='brainard-ptb'></a> Brainard, D. H. (1997). The Psychophysics Toolbox. *Spatial vision, 10*(4), 433–436. [https://doi.org/10.1163/156856897X00357](https://doi.org/10.1163/156856897X00357)
 
+- <a id='eeglab'></a> Delorme, A., & Makeig, S. (2004). EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. *Journal of Neuroscience Methods, 134*(1), 9–21. [https://doi.org/10.1016/j.jneumeth.2003.10.009](https://doi.org/10.1016/j.jneumeth.2003.10.009)
+
 - <a id='eagleman'></a> Eagleman, D. M., & Sejnowski, T. J. (2000). Motion Integration and Postdiction in Visual Awareness. *Science, 287*(5460), 2036–2038. [https://doi.org/10.1126/science.287.5460.2036](https://doi.org/10.1126/science.287.5460.2036)
 
 - <a id='kleiner-ptb'></a> Kleiner, M., Brainard, D. H., & Pelli, D. G. (2007). What’s new in Psychtoolbox-3? *Perception, 36*(ECVP Abstract Supplement), 14. [https://doi.org/10.1177/03010066070360S101](https://doi.org/10.1177/03010066070360S101)
+
+- <a id='erplab'></a> Lopez-Calderon, J., & Luck, S. J. (2014). ERPLAB: an open-source toolbox for the analysis of event-related potentials. *Frontiers in Human Neuroscience, 8*. https://doi.org/10.3389/fnhum.2014.00213
 
 - <a id='pelli-ptb'></a> Pelli, D. G. (1997). The VideoToolbox software for visual psychophysics: transforming numbers into movies. *Spatial vision, 10*(4), 437–442. [https://doi.org/10.1163/156856897X00366](https://doi.org/10.1163/156856897X00366)
 
