@@ -1,0 +1,44 @@
+\documentclass[fontsize=12pt, paper=a4, abstract=true]{scrartcl}
+\usepackage{theiss}     % loads custom template
+
+%% TITLE INFO %%
+\author{Name of Author}
+\date{Month DD, YYYY}
+
+\newcommand{\TitleOfEssay}{Title of Essay}
+\newcommand{\StudentID}{1234567}
+\newcommand{\NameOfModule}{MBB--MA--XXX--Y: Name of Module}
+\newcommand{\NameOfSeminar}{SX: Name of Seminar}
+\newcommand{\RunningHead}{
+    \MakeUppercase{Running Head}    % max. 50 characters
+    }
+
+\hypersetup{
+    pdftitle=\TitleOfEssay,
+    pdfauthor=\theauthor,
+    bookmarksopenlevel=1
+    }
+
+%% BIB-FILE(S) %%
+\addbibresource{bibliography/example.bib}
+
+%% BEGINNING OF DOCUMENT %%
+\begin{document}
+
+%% FRONTMATTER %%
+\input{other/title.tex}
+\input{other/abstract.tex}
+
+%% MAIN TEXT %%
+\begin{multicols}{2}
+    \input{sections/section1-0.tex}
+    \input{sections/section1-1.tex}
+    \input{sections/section1-2.tex}
+\end{multicols}
+
+%% ADD REFERENCES %%
+\emergencystretch=2em           % prevents 'overfull hbox' errors
+\input{other/references.tex}
+
+\end{document}
+%% END OF DOCUMENT %%
