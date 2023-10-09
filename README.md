@@ -1,11 +1,11 @@
 # MBB Essays
 
-This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html). [Here](latex-template), You can also find the [$\LaTeX$](https://www.latex-project.org) template that I used to typeset the essays.
+This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html). [Here](latex-template), You can also find the [LaTeX](https://www.latex-project.org) template that I used to typeset the essays.
 
 ## Table of Contents
 
 - [Essays](#essays)
-- [$\LaTeX$ Template](#latex-template)
+- [LaTeX Template](#latex-template)
 - [References](#references)
 
 ## Essays
@@ -46,7 +46,7 @@ In my essay, I discuss a postdictive framework postulated by Eagleman & Sejnowsk
 
 Shape-based object recognition theories propose that the visual system compares the twodimensional image of a viewed object to representations stored in memory to recognise an object. Recognition is declared if a representation is found that closely matches the image projected onto the retina. While agreeing on this overall approach, recognition theories based on shape differ significantly regarding how representations are stored in memory and how these are matched to the images of viewed objects. For example, these theories can be differentiated by their degree of view-dependency and the dimensionality of the stored representations. In my essay, I review a study by Bülthoff & Edelman ([1992](#buelthoff-edelman)), which suggests that the visual system likely represents objects by multiple 'two-dimensional snapshots' and uses an approximation scheme for recognition.
 
-## $\LaTeX$ Template
+## LaTeX Template
 
 *Coming soon.*
 
