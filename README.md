@@ -1,14 +1,11 @@
 # MBB Essays
 
-This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html).
+This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html). [Here](latex-template), You can also find the [$\LaTeX$](https://www.latex-project.org) template that I used to typeset the essays.
 
 ## Table of Contents
 
 - [Essays](#essays)
-    + [EEG](#eeg)
-    + [Programming for Behavioral and Neurosciences](#programming-for-behavioral-and-neurosciences)
-    + [Visual Cognition](#visual-cognition)
-    + [Visual Object Perception](#visual-object-perception)
+- [$\LaTeX$ Template](#latex-template)
 - [References](#references)
 
 ## Essays
@@ -49,6 +46,10 @@ In my essay, I discuss a postdictive framework postulated by Eagleman & Sejnowsk
 
 Shape-based object recognition theories propose that the visual system compares the twodimensional image of a viewed object to representations stored in memory to recognise an object. Recognition is declared if a representation is found that closely matches the image projected onto the retina. While agreeing on this overall approach, recognition theories based on shape differ significantly regarding how representations are stored in memory and how these are matched to the images of viewed objects. For example, these theories can be differentiated by their degree of view-dependency and the dimensionality of the stored representations. In my essay, I review a study by Bülthoff & Edelman ([1992](#buelthoff-edelman)), which suggests that the visual system likely represents objects by multiple 'two-dimensional snapshots' and uses an approximation scheme for recognition.
 
+## $\LaTeX$ Template
+
+*Coming soon.*
+
 ## References
 
 - <a id='brainard-ptb'></a> Brainard, D. H. (1997). The Psychophysics Toolbox. *Spatial vision, 10*(4), 433–436. [https://doi.org/10.1163/156856897X00357](https://doi.org/10.1163/156856897X00357)
@@ -68,3 +69,5 @@ Shape-based object recognition theories propose that the visual system compares 
 - <a id='matlab'></a> The MathWorks Inc. (2023). MATLAB (9.14.0) [Computer software]. The MathWorks Inc. [https://www.mathworks.com](https://www.mathworks.com)
 
 - <a id='vogel-machizawa'></a> Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. *Nature, 428*(6984), 748–751. [https://doi.org/10.1038/nature02447](https://doi.org/10.1038/nature02447)
+
+[def]: #references
