@@ -2,15 +2,15 @@
 \usepackage{theiss}     % loads custom template
 
 %% TITLE INFO %%
-\author{Name of Author}
-\date{Month DD, YYYY}
+\author{\dummy{Name of Author}}
+\date{\dummy{Month DD}, \dummy{YYYY}}
 
-\newcommand{\TitleOfEssay}{Title of Essay}
-\newcommand{\StudentID}{1234567}
-\newcommand{\NameOfModule}{MBB--MA--XXX--Y: Name of Module}
-\newcommand{\NameOfSeminar}{SX: Name of Seminar}
+\newcommand{\TitleOfEssay}{\dummy{Title of Essay}}
+\newcommand{\StudentID}{\dummy{1234567}}
+\newcommand{\NameOfModule}{MBB--MA--\dummy{XXX}--\dummy{Y}: \dummy{Name of Module}}
+\newcommand{\NameOfSeminar}{S\dummy{X}: \dummy{Name of Seminar}}
 \newcommand{\RunningHead}{
-    \MakeUppercase{Running Head}    % max. 50 characters
+    \dummy{\MakeUppercase{Running Head}}    % max. 50 characters
     }
 
 \hypersetup{
@@ -20,7 +20,7 @@
     }
 
 %% BIB-FILE(S) %%
-\addbibresource{bibliography/example.bib}
+\addbibresource{bibliography/apa-sample-references.bib}
 
 %% BEGINNING OF DOCUMENT %%
 \StopCensoring
@@ -36,8 +36,16 @@
 %% MAIN TEXT %%
 \begin{multicols}{2}
     \input{sections/section1-0.tex}
-    \input{sections/section1-1.tex}
-    \input{sections/section1-2.tex}
+    \input{sections/section2-0.tex}
+    \input{sections/section2-1.tex}
+    \input{sections/section2-2.tex}
+    \input{sections/section3-0.tex}
+    \input{sections/section3-1.tex}
+    \input{sections/section3-2.tex}
+    \input{sections/section4-0.tex}
+    \input{sections/section5-0.tex}
+    \input{sections/section5-1.tex}
+    \input{sections/section5-2.tex}
 \end{multicols}
 
 %% ADD REFERENCES %%
