@@ -29,6 +29,10 @@ The idea is to test participants' visual working memory capacity in the followin
 
 For more details, please check out [this repository](https://github.com/mrvnthss/visual-working-memory-capacity).
 
+### Space Perception and Action
+
+Virtual Reality (VR) has rapidly evolved from a realm of entertainment to an invaluable tool in research across a variety of disciplines. In this essay, I discuss the the complexity of accurately translating real-world motor actions (e.g., reaching and grasping) into the virtual domain, and I focus in particular on the role that haptic feedback plays in this endeavor.
+
 ### Visual Cognition
 
 In this essay, I discuss the perceptual illusion known as the flash-lag effect. Essentially, when a stationary stimulus is briefly flashed in alignment with a moving stimulus, the flashed object is usually perceived to spatially lag the moving object. The following illustration nicely demonstrates this:
@@ -48,7 +52,7 @@ Shape-based object recognition theories propose that the visual system compares 
 
 ## LaTeX Template
 
-*Coming soon.*
+All of the essays available in this repository are based on a LaTeX template that I have created myself. I have uploaded the full template [here](latex-template) along with instructions on how to use this template, should you wish to do so.
 
 ## References
 
