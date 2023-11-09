@@ -1,4 +1,4 @@
-# MBB Essays
+# Mind, Brain and Behavior
 
 This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html). [Here](latex-template), you can also find the [LaTeX](https://www.latex-project.org) template that I used to typeset the essays.
 
