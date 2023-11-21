@@ -1,58 +1,40 @@
 # Mind, Brain and Behavior
 
-This repository contains a collection of essays that I wrote as part of the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de/jlyou/en/index.html). [Here](latex-template), you can also find the [LaTeX](https://www.latex-project.org) template that I used to typeset the essays.
+This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at the [University of Giessen](https://www.uni-giessen.de).
 
 ## Table of Contents
 
-- [Essays](#essays)
+- [Projects](#projects)
+    + [Deep Learning with Dobble](#deep-learning-with-dobble)
+    + [Visual Working Memory Capacity](#visual-working-memory-capacity)
+    + [Brightness Discrimination](#brightness-discrimination)
+- [Essays and Reports](#essays-and-reports)
+    + [Representation of Objects in Object Recognition](#representation-of-objects-in-object-recognition)
+    + [A Postdictive Framework for Visual Awareness](#a-postdictive-framework-for-visual-awareness)
+    + [Reaching and Grasping in Virtual Reality](#reaching-and-grasping-in-virtual-reality)
+    + [Collecting, Processing, and Analyzing EEG Data](#collecting-processing-and-analyzing-eeg-data)
 - [LaTeX Template](#latex-template)
 - [References](#references)
 
-## Essays
+## Projects
 
-### EEG
+### Deep Learning with Dobble
 
-The EEG seminar that's part of the [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) program at JLU consists of theoretical sessions that focus on the theory behind EEG, as well as practical lab sessions that teach students how to conduct EEG experiments and how to collect, preprocess, and analyze EEG data. My paper, which you can find in this repository, focuses on the latter aspects. Using the passive auditory oddball task as an example, I discuss the entire process of running an EEG experiment, including EEG preparation and data collection, data preprocessing, and data analysis.
+### Visual Working Memory Capacity
 
-Data preprocessing and analysis were performed in MATLAB (The MathWorks Inc., [2023](#matlab)) using common EEG toolboxes, such as EEGLAB (Delorme & Makeig, [2004](#eeglab)), ERPLAB (Lopez-Calderon & Luck, [2014](#erplab)), and others.
+### Brightness Discrimination
 
-### Programming for Behavioral and Neurosciences
+## Essays and Reports
 
-This paper is a technical report describing the implementation of a [visual working memory capacity experiment](https://github.com/mrvnthss/visual-working-memory-capacity) by Vogel & Machizawa ([2004](#vogel-machizawa)). The experiment is implemented in MATLAB (The MathWorks Inc., [2023](#matlab)) using the Psychtoolbox library (Brainard, [1997](#brainard-ptb); Kleiner et al., [2007](#kleiner-ptb); Pelli, [1997](#pelli-ptb)).
+### Representation of Objects in Object Recognition
 
-The idea is to test participants' visual working memory capacity in the following way: At the beginning of each trial, an arrow is briefly flashed just above a central fixation cross, pointing either left or right. Next, two arrays of the same number of colored squares are briefly presented. After a retention interval of just under one second, the two arrays of colored squares are presented again. However, in half of the trials, one of the squares in the hemifield to which the arrow pointed changes color. At the end of each trial, participants have to indicate whether this was the case or not. 
+### A Postdictive Framework for Visual Awareness
 
-<div align="center">
-    <img src="https://github.com/mrvnthss/visual-working-memory-capacity/blob/main/figures/experiment-demo.gif?raw=true" alt="trial-structure" width="600">
-    <p>A dynamic illustration of the experiment by Vogel & Machizawa (<a href="#vogel-machizawa">2004</a>).</p>
-</div>
+### Reaching and Grasping in Virtual Reality
 
-For more details, please check out [this repository](https://github.com/mrvnthss/visual-working-memory-capacity).
-
-### Space Perception and Action
-
-Virtual Reality (VR) has rapidly evolved from a realm of entertainment to an invaluable tool in research across a variety of disciplines. In this essay, I discuss the the complexity of accurately translating real-world motor actions (e.g., reaching and grasping) into the virtual domain, and I focus in particular on the role that haptic feedback plays in this endeavor.
-
-### Visual Cognition
-
-In this essay, I discuss the perceptual illusion known as the flash-lag effect. Essentially, when a stationary stimulus is briefly flashed in alignment with a moving stimulus, the flashed object is usually perceived to spatially lag the moving object. The following illustration nicely demonstrates this:
-
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Flash_lag.gif" alt="flash-lag effect" width="600">
-    <p>Illustration of the flash-lag effect by <i>Laurent Perrinet</i>. <a href="https://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA 3.0</a></p>
-</div>
-
-When the green square flashes, most observers report seeing the red square *in front* of the green square. What makes this phenomenon interesting is that, at the time of writing, no consensus had been reached among scientists about the underlying meachnisms.
-
-In my essay, I discuss a postdictive framework postulated by Eagleman & Sejnowski ([2000](#eagleman)), and I elaborate on the debate that the proposal of this framework sparked among researchers.
-
-### Visual Object Perception
-
-Shape-based object recognition theories propose that the visual system compares the twodimensional image of a viewed object to representations stored in memory to recognise an object. Recognition is declared if a representation is found that closely matches the image projected onto the retina. While agreeing on this overall approach, recognition theories based on shape differ significantly regarding how representations are stored in memory and how these are matched to the images of viewed objects. For example, these theories can be differentiated by their degree of view-dependency and the dimensionality of the stored representations. In my essay, I review a study by Bülthoff & Edelman ([1992](#buelthoff-edelman)), which suggests that the visual system likely represents objects by multiple 'two-dimensional snapshots' and uses an approximation scheme for recognition.
+### Collecting, Processing, and Analyzing EEG Data
 
 ## LaTeX Template
-
-All of the essays available in this repository are based on a LaTeX template that I have created myself. I have uploaded the full template [here](latex-template) along with instructions on how to use this template, should you wish to do so.
 
 ## References
 
@@ -73,5 +55,3 @@ All of the essays available in this repository are based on a LaTeX template tha
 - <a id='matlab'></a> The MathWorks Inc. (2023). MATLAB (9.14.0) [Computer software]. The MathWorks Inc. [https://www.mathworks.com](https://www.mathworks.com)
 
 - <a id='vogel-machizawa'></a> Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. *Nature, 428*(6984), 748–751. [https://doi.org/10.1038/nature02447](https://doi.org/10.1038/nature02447)
-
-[def]: #references
