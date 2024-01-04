@@ -1,4 +1,4 @@
-\ProvidesPackage{theiss}
+\ProvidesPackage{essay}
 
 %% SECTION HEADINGS %%
 \setkomafont{section}{\large}   % font size of headings
