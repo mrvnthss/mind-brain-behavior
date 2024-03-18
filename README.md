@@ -1,4 +1,4 @@
-# Mind, Brain and Behavior
+# Mind, Brain and Behavior <a href="https://github.com/mrvnthss/mind-brain-behavior"><img src="brain-icon.png" align="right" height="120"/></a>
 
 This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at the [University of Giessen](https://www.uni-giessen.de).
 
@@ -159,6 +159,8 @@ All of the essays and reports available in this repository have been typeset usi
   </a>
 </p>
 
+<a href="https://www.freepik.com/icon/artificial-intellegence_10817287#fromView=family&page=1&position=12&uuid=e057dab1-274d-4f7e-b548-ae2308db5b91">Icon by juicy_fish</a>
+
 ## References
 
 - <a id='brainard-ptb'></a> Brainard, D. H. (1997). The Psychophysics toolbox. *Spatial Vision, 10*(4), 433–436. [https://doi.org/10.1163/156856897X00357](https://doi.org/10.1163/156856897X00357)
@@ -180,3 +182,7 @@ All of the essays and reports available in this repository have been typeset usi
 - <a id='matlab'></a> The MathWorks Inc. (2023). MATLAB (9.14.0) [Computer software]. The MathWorks Inc. [https://www.mathworks.com](https://www.mathworks.com)
 
 - <a id='vogel-machizawa'></a> Vogel, E. K., & Machizawa, M. G. (2004). Neural activity predicts individual differences in visual working memory capacity. *Nature, 428*(6984), 748–751. [https://doi.org/10.1038/nature02447](https://doi.org/10.1038/nature02447)
+
+## Acknowledgments
+
+The icon included in the header of this README was obtained from [Freepik](https://www.freepik.com) and is designed by [juicy_fish](https://www.freepik.com/author/juicy-fish/icons?t=f).
