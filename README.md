@@ -7,7 +7,7 @@ This repository contains a collection of essays, projects and the like that I pr
 - [Projects](#projects)
     + [Deep Learning with Dobble](#deep-learning-with-dobble)
     + [Visual Working Memory Capacity](#visual-working-memory-capacity)
-    + [Brightness Discrimination](#brightness-discrimination)
+    + [Brightness Discrimination (2AFC)](#brightness-discrimination)
 - [Essays and Reports](#essays-and-reports)
     + [Representation of Objects in Object Recognition](#representation-of-objects-in-object-recognition)
     + [A Postdictive Framework for Visual Awareness](#a-postdictive-framework-for-visual-awareness)
@@ -55,14 +55,14 @@ The full project is hosted in the following repository: [visual-working-memory-c
 - **Module**: Programming for Behavioral and Neurosciences (Elective) / Computational Modeling (MBB-MA-AM-3)
 - **Seminar**: Introduction to Computational Modeling (S1)
 
-The first experiment we tackled in *Programming for Behavioral and Neurosciences* was a simple brightness discrimination task using the *method of constant stimuli* (2AFC paradigm). In this experiment, the implementation of a single trial is rather straightforward. Hence, the idea for this project was to familiarize ourselves with correctly implementing the logic of the 2AFC paradigm, while also getting the details such as accurate timing right. Below is a preview of the brightness discrimnation task.
+The first experiment we tackled in *Programming for Behavioral and Neurosciences* was a simple brightness discrimination task using the *method of constant stimuli* (2AFC paradigm). In this experiment, the implementation of a single trial is rather straightforward. Hence, the idea for this project was to familiarize ourselves with correctly implementing the logic of the 2AFC paradigm, while also getting the details such as accurate timing right. Below is a preview of the brightness discrimination task.
 
 <div align="center">
     <img src="https://github.com/mrvnthss/brightness-discrimination-2afc/blob/main/figures/experiment-demo.gif?raw=true" alt="brightness-discrimination" width="600">
     <p>A dynamic illustration of the brightness discrimination task.</p>
 </div>
 
-In the *Introduction to Computational Modeling* seminar, we learned to apply different modeling approaches to data collected in experiments. Since I had already implemented my own experiment using a 2AFC paradigm, I decided to recycle the brightness discrimnation experiment to serve as a starting point for the final project of the Computational Modeling seminar. Using the [psignifit](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/neuronale-informationsverarbeitung/research/software/psignifit/) toolbox developed by Schütt et al. ([2016](#psignifit)), I wrote a MATLAB script that automatically generates a psychometric curve fitted to the data collected during the brightness discrimination task. Below is an example of such a psychometric curve.
+In the *Introduction to Computational Modeling* seminar, we learned to apply different modeling approaches to data collected in experiments. Since I had already implemented my own experiment using a 2AFC paradigm, I decided to recycle the brightness discrimination experiment to serve as a starting point for the final project of the Computational Modeling seminar. Using the [psignifit](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/neuronale-informationsverarbeitung/research/software/psignifit/) toolbox developed by Schütt et al. ([2016](#psignifit)), I wrote a MATLAB script that automatically generates a psychometric curve fitted to the data collected during the brightness discrimination task. Below is an example of such a psychometric curve.
 
 <div align="center">
     <img src="https://github.com/mrvnthss/brightness-discrimination-2afc/blob/main/figures/sample-01.png?raw=true" alt="brightness-discrimination" width="600">
