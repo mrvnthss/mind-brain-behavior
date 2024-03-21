@@ -50,9 +50,13 @@ The technical report explaining my implementation of the experiment can be found
 
 The full project is hosted in the following repository: [visual-working-memory-capacity](https://github.com/mrvnthss/visual-working-memory-capacity).
 
-### Brightness Discrimination
+### Brightness Discrimination (2AFC)
 
-- **Module**: Programming for Behavioral and Neurosciences (Elective) / Computational Modeling (MBB-MA-AM-3)
+- **Module**: Programming for Behavioral and Neurosciences (Elective)
+
+*and*
+
+- **Module**: Computational Modeling (MBB-MA-AM-3)
 - **Seminar**: Introduction to Computational Modeling (S1)
 
 The first experiment we tackled in *Programming for Behavioral and Neurosciences* was a simple brightness discrimination task using the *method of constant stimuli* (2AFC paradigm). In this experiment, the implementation of a single trial is rather straightforward. Hence, the idea for this project was to familiarize ourselves with correctly implementing the logic of the 2AFC paradigm, while also getting the details such as accurate timing right. Below is a preview of the brightness discrimination task.
