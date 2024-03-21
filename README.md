@@ -1,4 +1,4 @@
-# Mind, Brain and Behavior <a href="https://github.com/mrvnthss/mind-brain-behavior"><img src="brain-icon.png" align="right" height="100"/></a>
+# Mind, Brain and Behavior <a href="https://github.com/mrvnthss/mind-brain-behavior"><img src="brain-icon.png" align="right" height="80"/></a>
 
 This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at the [University of Giessen](https://www.uni-giessen.de).
 
