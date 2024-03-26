@@ -24,14 +24,14 @@ This repository contains a collection of essays, projects and the like that I pr
 - **Module**: Computational Modeling (MBB-MA-AM-3)
 - **Seminar**: Deep Learning (S2)
 
-In order to gain practical experience in working with deep neural networks, the *Deep Learning* seminar included an extensive hands-on project, which also counted towards the final grade for the course. Nina (a fellow student) and I built our project around the popular card game [*Dobble*](https://www.dobblegame.com). We implemented an algorithm that allowed us to generate custom *Dobble* decks, and we set up a deep learning pipeline to train, validate, and test arbitrary model architectures with the goal of teaching those models to play the game. Specifically, we passed as input images two different *Dobble* playing cards on a colored background and asked the models to return the unique emoji present on both playing cards. We then trained ResNet models of different depths and compared their performance.
+In order to gain practical experience in working with deep neural networks (DNNs), the *Deep Learning* seminar included an extensive hands-on project, which also counted towards the final grade for the course. Nina (a fellow student) and I built our project around the popular card game [*Dobble*](https://www.dobblegame.com). We implemented an algorithm that allowed us to generate custom *Dobble* decks, and we set up a deep learning pipeline to train, validate, and test arbitrary DNNs with the goal of teaching those networks to play the game. Specifically, we passed as input images two different *Dobble* playing cards on a colored background and asked the DNNs to return the unique emoji present on both playing cards. We then trained ResNet networks of different depths and compared their performance.
 
 <div align="center">
     <img src="https://github.com/mrvnthss/deep-learning-with-dobble/blob/main/reports/figures/results/resnet-comparison.png?raw=true" alt="resnet-comparison" width="700">
-    <p>Training results for ResNet models of different depths.</p>
+    <p>Training results for ResNet networks of different depths.</p>
 </div>
 
-Finally, to familiarize ourselves with interpretability techniques, we visualized and analyzed intermediate activations of the trained ResNet-18 model at different levels.
+Finally, to familiarize ourselves with interpretability techniques, we visualized and analyzed intermediate activations of the trained ResNet-18 network at different layers.
 
 The full project is hosted in the following repository: [deep-learning-with-dobble](https://github.com/mrvnthss/deep-learning-with-dobble).
 
@@ -162,8 +162,6 @@ All of the essays and reports available in this repository have been typeset usi
     <img src="https://www.psychtoolbox.net/wp-content/uploads/2022/03/no_background_purple_text.png" alt="pytorch" height="40"/>
   </a>
 </p>
-
-<a href="https://www.freepik.com/icon/artificial-intellegence_10817287#fromView=family&page=1&position=12&uuid=e057dab1-274d-4f7e-b548-ae2308db5b91">Icon by juicy_fish</a>
 
 ## References
 
