@@ -187,4 +187,4 @@ All of the essays and reports available in this repository have been typeset usi
 
 ## Acknowledgments
 
-The icon included in the header of this README was obtained from [Freepik](https://www.freepik.com) and is designed by [juicy_fish](https://www.freepik.com/author/juicy-fish/icons?t=f).
+The icon included in the header of this README is designed by [Freepik](https://www.freepik.com/icon/brain_1829882).
