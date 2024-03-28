@@ -1,13 +1,13 @@
 # Mind, Brain and Behavior <a href="https://github.com/mrvnthss/mind-brain-behavior"><img src="brain-icon.png" align="right" height="80"/></a>
 
-This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior (MSc)](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at the [University of Giessen](https://www.uni-giessen.de).
+This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de).
 
 ## Table of Contents
 
 - [Projects](#projects)
     + [Deep Learning with Dobble](#deep-learning-with-dobble)
     + [Visual Working Memory Capacity](#visual-working-memory-capacity)
-    + [Brightness Discrimination (2AFC)](#brightness-discrimination)
+    + [Brightness Discrimination (2AFC)](#brightness-discrimination-2afc)
 - [Essays and Reports](#essays-and-reports)
     + [Representation of Objects in Object Recognition](#representation-of-objects-in-object-recognition)
     + [A Postdictive Framework for Visual Awareness](#a-postdictive-framework-for-visual-awareness)
