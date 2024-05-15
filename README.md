@@ -13,6 +13,7 @@ This repository contains a collection of essays, projects and the like that I pr
     + [A Postdictive Framework for Visual Awareness](#a-postdictive-framework-for-visual-awareness)
     + [Reaching and Grasping in Virtual Reality](#reaching-and-grasping-in-virtual-reality)
     + [Collecting, Processing, and Analyzing EEG Data](#collecting-processing-and-analyzing-eeg-data)
+    + [Bridging Minds and Machines](#bridging-minds-and-machines)
 - [LaTeX Template](#latex-template)
 - [Languages and Tools](#languages-and-tools)
 - [References](#references)
@@ -43,7 +44,7 @@ Since I enjoy working on programming projects, I decided to take an additional p
 
 <div align="center">
     <img src="https://github.com/mrvnthss/visual-working-memory-capacity/blob/main/figures/experiment-demo.gif?raw=true" alt="visual-working-memory-capacity" width="600">
-    <p>A dynamic illustration of the experiment by Vogel & Machizawa (<a href="#vogel-machizawa">2004</a>).</p>
+    <p>A dynamic illustration of my implementation of the experiment by Vogel & Machizawa (<a href="#vogel-machizawa">2004</a>).</p>
 </div>
 
 The technical report explaining my implementation of the experiment can be found here: [reports/programming-for-behavioral-and-neurosciences.pdf](reports/programming-for-behavioral-and-neurosciences.pdf)
@@ -124,6 +125,17 @@ Data preprocessing and analysis were performed in MATLAB (The MathWorks Inc., [2
 
 You can find the report here: [reports/eeg.pdf](reports/eeg.pdf).
 
+### Bridging Minds and Machines
+
+- **Module**: Perception and Action (MBB-MA-THM-2)
+- **Seminar**: Development of Perception and Action (S2)
+
+State-of-the-art (SOTA) AI systems, especially deep neural networks, have achieved remarkable performance in diverse domains, from image classification and board games to language modeling and protein folding. For many tasks, the capabilities of SOTA systems have now surpassed those of humans. However, there is a significant gap between these systems and the nuanced intelligence exhibited by humans. In particular, many of these artificial systems adopt a supervised pattern recognition approach and lack a fundamental grasp of common sense and causal reasoning.
+
+There is an emerging body of research that attempts to address these issues by drawing inspiration from developmental psychology. In particular, there are promising developments in network design that reflect an emerging understanding of physical principles (intuitive physics), and in unsupervised training schemes that attempt to mimic the predominantly exploratory learning characteristic of infancy. In my essay, I review two recent contributions to this area of research by Stetter and Lang ([2021](#stetter)) and Piloto et al. ([2022](#piloto)). The former have introduced a network that learns the dynamics of its environment in an unsupervised manner, mimicking the exploratory learning observed in human infants, while the latter have designed a network that is capable of learning intuitive physics from visual data alone by prioritizing object-level representations and exploiting the violation-of-expectation paradigm popular in developmental psychology.
+
+You can find the essay here: [essays/development-of-perception-and-action.pdf](essays/development-of-perception-and-action.pdf)
+
 ## LaTeX Template
 
 All of the essays and reports available in this repository have been typeset using a custom LaTeX template that I created along the way. You can find the full template, along with instructions on how to use it, [here](latex-template).
@@ -179,7 +191,11 @@ All of the essays and reports available in this repository have been typeset usi
 
 - <a id='pelli-ptb'></a> Pelli, D. G. (1997). The VideoToolbox software for visual psychophysics: Transforming numbers into movies. *Spatial Vision, 10*(4), 437–442. [https://doi.org/10.1163/156856897X00366](https://doi.org/10.1163/156856897X00366)
 
+- <a id='piloto'></a> Piloto, L. S., Weinstein, A., Battaglia, P., & Botvinick, M. (2022). Intuitive physics learning in a deep-learning model inspired by developmental psychology. *Nature Human Behaviour, 6*(9), 1257–1267. [https://doi.org/10.1038/s41562-022-01394-8](https://doi.org/10.1038/s41562-022-01394-8)
+
 - <a id='psignifit'></a> Schütt, H. H., Harmeling, S., Macke, J. H., & Wichmann, F. A. (2016). Painfree and accurate Bayesian estimation of psychometric functions for (potentially) overdispersed data. *Vision Research, 122*, 105–123. [https://doi.org/10.1016/j.visres.2016.02.002](https://doi.org/10.1016/j.visres.2016.02.002)
+
+- <a id='stetter'></a> Stetter, M., & Lang, E. W. (2021). Learning intuitive physics and one-shot imitation using state-action-prediction self-organizing maps. *Computational Intelligence and Neuroscience, 2021*(5590445). [https://doi.org/10.1155/2021/5590445](https://doi.org/10.1155/2021/5590445)
 
 - <a id='matlab'></a> The MathWorks Inc. (2023). MATLAB (9.14.0) [Computer software]. The MathWorks Inc. [https://www.mathworks.com](https://www.mathworks.com)
 
