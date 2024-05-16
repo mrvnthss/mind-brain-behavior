@@ -1,12 +1,12 @@
 # LaTeX Template <a href="https://www.overleaf.com"><img src="https://www.overleaf.com/img/website-redesign/overleaf-sticker.svg" align="right" height="80"/></a>
 
-**<p xmlns:cc="http://creativecommons.org/ns#"><a rel="cc:attributionURL" href="https://github.com/mrvnthss/mind-brain-behavior/tree/main/latex-template">This work</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/mrvnthss">Marvin Theiss</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>**
+**<p xmlns:cc="http://creativecommons.org/ns#"><a rel="cc:attributionURL" href="https://github.com/mrvnthss/mind-brain-behavior/tree/main/latex-template">This work</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/mrvnthss">Marvin Theiss</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 <img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""> <img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>**
 
 <div align="center">
-  <img src="sample-images/title.png" width="25%"/>
-  <img src="sample-images/image-in-text.png" width="25%"/> 
-  <img src="sample-images/references.png" width="25%"/>
-  <p>Samples of the LaTeX template provided in this repository.</p>
+  <img src="sample-images/title.png" width="30%"/>
+  <img src="sample-images/image-in-text.png" width="30%"/> 
+  <img src="sample-images/references.png" width="30%"/>
+  <p>Screenshots of the LaTeX template provided in this repository.</p>
 </div>
 
 This LaTeX template came about during my studies at Justus Liebig University Giessen. In the *Mind, Brain and Behavior* master's program, I had to write several essays. With a background in mathematics, I never really use Microsoft Word or similar WYSIWYG editors. Instead, I usually work exclusively with LaTeX, mostly through [Overleaf](https://www.overleaf.com). Thus, when it was time to write the first essay for the MBB program, I decided to quickly create my own LaTeX template to use during my studies in Giessen.
