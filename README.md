@@ -1,31 +1,33 @@
 # Mind, Brain and Behavior <a href="https://github.com/mrvnthss/mind-brain-behavior"><img src="brain-icon.png" align="right" height="80"/></a>
 
-This repository contains a collection of essays, projects and the like that I produced while enrolled in the master's program [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) at [Justus Liebig University Giessen](https://www.uni-giessen.de).
+This repository contains a collection of projects, essays, and reports that I produced while enrolled in the [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) master's program at [Justus Liebig University Giessen](https://www.uni-giessen.de). Also included is the [LaTeX template](latex-template) that I used to write my essays and reports.
 
 ## Table of Contents
 
-- [Projects](#projects)
+- [Programming Projects](#programming-projects)
     + [Deep Learning with Dobble](#deep-learning-with-dobble)
+- [Psychophysics Experiments](#psychophysics-experiments)
     + [Visual Working Memory Capacity](#visual-working-memory-capacity)
     + [Brightness Discrimination (2AFC)](#brightness-discrimination-2afc)
-- [Essays and Reports](#essays-and-reports)
+- [Essays](#essays)
     + [Representation of Objects in Object Recognition](#representation-of-objects-in-object-recognition)
     + [A Postdictive Framework for Visual Awareness](#a-postdictive-framework-for-visual-awareness)
     + [Reaching and Grasping in Virtual Reality](#reaching-and-grasping-in-virtual-reality)
-    + [Collecting, Processing, and Analyzing EEG Data](#collecting-processing-and-analyzing-eeg-data)
     + [Bridging Minds and Machines](#bridging-minds-and-machines)
+- [Technical Reports](#technical-reports)
+    + [Collecting, Processing, and Analyzing EEG Data](#collecting-processing-and-analyzing-eeg-data)
 - [LaTeX Template](#latex-template)
 - [Languages and Tools](#languages-and-tools)
 - [References](#references)
 
-## Projects
+## Programming Projects
 
 ### Deep Learning with Dobble
 
 - **Module**: Computational Modeling (MBB-MA-AM-3)
 - **Seminar**: Deep Learning (S2)
 
-In order to gain practical experience in working with deep neural networks (DNNs), the *Deep Learning* seminar included an extensive hands-on project, which also counted towards the final grade for the course. Nina (a fellow student) and I built our project around the popular card game [*Dobble*](https://www.dobblegame.com). We implemented an algorithm that allowed us to generate custom *Dobble* decks, and we set up a deep learning pipeline to train, validate, and test arbitrary DNNs with the goal of teaching those networks to play the game. Specifically, we passed as input images two different *Dobble* playing cards on a colored background and asked the DNNs to return the unique emoji present on both playing cards. We then trained ResNet networks of different depths and compared their performance.
+In order to gain practical experience in working with deep neural networks (DNNs), the *Deep Learning* seminar included an extensive hands-on project, which also counted towards the final grade for the course. Nina (a fellow student) and I built our project around the popular card game [*Dobble*](https://www.dobblegame.com). We implemented an algorithm that allowed us to generate custom *Dobble* decks, and we set up a deep learning pipeline to train, validate, and test arbitrary DNNs with the goal of teaching those networks to play the game. Specifically, as input images we passed two different *Dobble* playing cards on a colored background and asked the DNNs to return the unique emoji present on both playing cards. We then trained ResNet networks of different depths and compared their performance.
 
 <div align="center">
     <img src="https://github.com/mrvnthss/deep-learning-with-dobble/blob/main/reports/figures/results/resnet-comparison.png?raw=true" alt="resnet-comparison" width="700">
@@ -35,6 +37,8 @@ In order to gain practical experience in working with deep neural networks (DNNs
 Finally, to familiarize ourselves with interpretability techniques, we visualized and analyzed intermediate activations of the trained ResNet-18 network at different layers.
 
 The full project is hosted in the following repository: [deep-learning-with-dobble](https://github.com/mrvnthss/deep-learning-with-dobble).
+
+## Psychophysics Experiments
 
 ### Visual Working Memory Capacity
 
@@ -78,7 +82,7 @@ In the *Introduction to Computational Modeling* seminar, we learned to apply dif
 
 The full project is hosted in the following repository: [brightness-discrimination-2afc](https://github.com/mrvnthss/brightness-discrimination-2afc).
 
-## Essays and Reports
+## Essays
 
 ### Representation of Objects in Object Recognition
 
@@ -114,17 +118,6 @@ Virtual reality (VR) has rapidly evolved from a realm of entertainment to an inv
 
 You can find the essay here: [essays/space-perception-and-action.pdf](essays/space-perception-and-action.pdf)
 
-### Collecting, Processing, and Analyzing EEG Data
-
-- **Module**: Imaging and Recording Brain Activity (MBB-MA-AM-4)
-- **Seminar**: Electroencephalography (S1)
-
-The EEG seminar that's part of the [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) program consists of theoretical sessions that focus on the theory behind EEG, as well as practical lab sessions that teach students how to conduct EEG experiments and how to collect, preprocess, and analyze EEG data. The report that you can find in this repository focuses on the latter aspects. Using the passive auditory oddball task as an example, I discuss the entire process of conducting an EEG experiment, including EEG preparation and data collection, data preprocessing, and data analysis.
-
-Data preprocessing and analysis were performed in MATLAB (The MathWorks Inc., [2023](#matlab)) using common EEG toolboxes, such as EEGLAB (Delorme & Makeig, [2004](#eeglab)), ERPLAB (Lopez-Calderon & Luck, [2014](#erplab)), and others.
-
-You can find the report here: [reports/eeg.pdf](reports/eeg.pdf).
-
 ### Bridging Minds and Machines
 
 - **Module**: Perception and Action (MBB-MA-THM-2)
@@ -135,6 +128,19 @@ State-of-the-art (SOTA) AI systems, especially deep neural networks, have achiev
 There is an emerging body of research that attempts to address these issues by drawing inspiration from developmental psychology. In particular, there are promising developments in network design that reflect an emerging understanding of physical principles (intuitive physics), and in unsupervised training schemes that attempt to mimic the predominantly exploratory learning characteristic of infancy. In my essay, I review two recent contributions to this area of research by Stetter and Lang ([2021](#stetter)) and Piloto et al. ([2022](#piloto)). The former have introduced a network that learns the dynamics of its environment in an unsupervised manner, mimicking the exploratory learning observed in human infants, while the latter have designed a network that is capable of learning intuitive physics from visual data alone by prioritizing object-level representations and exploiting the violation-of-expectation paradigm popular in developmental psychology.
 
 You can find the essay here: [essays/development-of-perception-and-action.pdf](essays/development-of-perception-and-action.pdf)
+
+## Technical Reports
+
+### Collecting, Processing, and Analyzing EEG Data
+
+- **Module**: Imaging and Recording Brain Activity (MBB-MA-AM-4)
+- **Seminar**: Electroencephalography (S1)
+
+The EEG seminar that's part of the [Mind, Brain and Behavior](https://www.uni-giessen.de/de/studium/studienangebot/master/mbb) program consists of theoretical sessions that focus on the theory behind EEG, as well as practical lab sessions that teach students how to conduct EEG experiments and how to collect, preprocess, and analyze EEG data. The report that you can find in this repository focuses on the latter aspects. Using the passive auditory oddball task as an example, I discuss the entire process of conducting an EEG experiment, including EEG preparation and data collection, data preprocessing, and data analysis.
+
+Data preprocessing and analysis were performed in MATLAB (The MathWorks Inc., [2023](#matlab)) using common EEG toolboxes, such as EEGLAB (Delorme & Makeig, [2004](#eeglab)), ERPLAB (Lopez-Calderon & Luck, [2014](#erplab)), and others.
+
+You can find the report here: [reports/eeg.pdf](reports/eeg.pdf).
 
 ## LaTeX Template
 
