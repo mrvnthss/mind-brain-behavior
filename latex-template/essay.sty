@@ -34,7 +34,6 @@
 \usepackage{geometry}            % page layout
 \usepackage{setspace}            % spacing of text
 \usepackage{multicol}            % multiple columns of text
-\usepackage{fancyhdr}            % headers & footers
 \usepackage{graphicx}            % images
 \graphicspath{ {./images/} }     % set path for images
 \usepackage[document]{ragged2e}  % text left-aligned, right margin
@@ -42,7 +41,7 @@
 \usepackage{titling}             % easy access to author, title etc. for
                                  % title page
 \usepackage[dvipsnames]{xcolor}  % colors
-\usepackage{gensymb}             % generic symbols (e.g., degree symbol)
+\usepackage{textcomp, gensymb}   % generic symbols (e.g., degree symbol)
 \usepackage{amssymb}             % math symbols, operators, etc.
 \usepackage{mathtools}           % tools for mathematical typesetting
 \usepackage{censor}              % redaction capabilities
@@ -59,6 +58,10 @@
 \RaggedRightParindent=\parindent    % paragraph indentation --> ragged2e
 \doublespacing                      % sets line spacing
 \setlength{\columnsep}{5mm}         % width of space between columns
+
+
+%% HEADERS & FOOTERS %%
+\usepackage{fancyhdr}
 \pagestyle{fancy}                   % set up headers & footers
 \fancyhf{}                          % clear all headers & footers
 \renewcommand{\headrulewidth}{0pt}  % get rid of line underneath header
