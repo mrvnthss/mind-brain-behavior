@@ -28,7 +28,7 @@ This template does *not* follow any particular guidelines regarding margins, par
 
 ### Importing the Template in Overleaf
 
-To get started, you will need to download the template first. You can download all the necessary files in a ZIP file [by clicking here](https://www.dropbox.com/scl/fi/qv6kkbrp390sasu8brmk1/latex-template.zip?rlkey=3ggsl603o2pwoz0o9nd6wefpt&dl=1). To start a new project in [Overleaf](https://www.overleaf.com), simply log in to your account (or register if you don't yet have one), and then click on *New Project* &rarr; *Upload Project*.
+To get started, you will need to download the template first. You can download all the necessary files in a ZIP file [by clicking here](https://www.dropbox.com/scl/fi/x4btaprdc23rjhaywxyhk/latex-template.zip?rlkey=6tkce22dy1tcffqfegqf3tfjy&st=z980o2xi&dl=1). To start a new project in [Overleaf](https://www.overleaf.com), simply log in to your account (or register if you don't yet have one), and then click on *New Project* &rarr; *Upload Project*.
 
 <div align="center">
     <img src="images/new-project.png" alt="new-project" width="200">
